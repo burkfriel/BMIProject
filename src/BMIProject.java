@@ -25,7 +25,7 @@ public class BMIProject {
         System.out.println("What is your weight in pounds.");
         Pounds = keyboard.nextInt();
         Kilograms = Pounds *(0.453592f);
-        Total = Kilograms/Meters*Meters;
+        Total = Kilograms/(Meters*Meters);
         System.out.println("Your BMI is "+Total+".");
 
 
